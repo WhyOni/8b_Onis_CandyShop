@@ -1,0 +1,14 @@
+.content {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+}
+.grid-container {
+  display: grid;
+}
+.grid-items {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}

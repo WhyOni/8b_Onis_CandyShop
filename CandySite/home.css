@@ -17,13 +17,16 @@ hr {
 .intropic {
   width: 50%;
 }
-.getstarted {
+.getstartedbox {
   background-color: #00bfa6;
   border-radius: 10px;
   width: 250px;
   height: 50px;
   font-size: large;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .getstarted {
   font-size: large;

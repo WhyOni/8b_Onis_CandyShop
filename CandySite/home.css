@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: white;
+}
+body {
+  background-color: #202124;
+}
+
+header {
+  background-color: #202124;
+  height: 50px;
+  border-bottom: solid #6f727c 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+.HeaderDiv {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.content {
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 80%;
+}
+hr {
+  margin: 10px;
+  border: #6f727c dotted 1px;
+}
+.intro {
+  width: 50%;
+}
+.introwithpic {
+  display: flex;
+}
+.intropic {
+  width: 50%;
+}
+button {
+  background-color: #00bfa6;
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: large;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .intro {
+    font-size: medium;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .intro {
+    font-size: x-small;
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .intro {
+    font-size: xx-small;
+  }
+}

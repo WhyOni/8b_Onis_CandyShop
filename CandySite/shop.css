@@ -5,10 +5,45 @@
   width: 80%;
 }
 .grid-container {
-  display: grid;
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
+  row-gap: 50px;
 }
 .grid-items {
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
+  background-color: rgb(53, 53, 53);
+  border-radius: 10px;
+  width: 90%;
+  height: 300px;
+}
+
+.image {
+  height: 40%;
+  background-image: url("images/M&Ms.jpg");
+  background-size: cover;
+  border-radius: 10px;
+}
+.title {
+  font-size: xx-large;
+}
+.price {
+  color: gray;
+}
+
+@media only screen and (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 33% 33% 33%;
+  }
+  .grid-items {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 50% 50%;
+  }
+  .grid-items {
+    height: 150px;
+  }
 }

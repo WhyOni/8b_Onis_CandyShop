@@ -23,7 +23,7 @@ header {
 }
 .HeaderDiv {
   display: flex;
-  width: 250px;
+  width: 150px;
   justify-content: space-between;
 }
 

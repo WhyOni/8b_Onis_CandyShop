@@ -22,6 +22,7 @@ function signup() {
     let email = document.getElementById("email").value;
     let newuser = { fn: fn, ln: ln, email: email, password: password };
     UserData.push(newuser);
+    window.location.replace("./shop.html");
   }
 }
 
@@ -31,6 +32,7 @@ function login() {
 
   for (let i = 0; i < UserData.length; i++) {
     if (UserData[i].email == email && UserData[i].password == pass) {
+      window.location.replace("./shop.html");
     }
   }
 }

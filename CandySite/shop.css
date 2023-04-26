@@ -3,6 +3,7 @@
   padding-left: 10%;
   padding-right: 10%;
   width: 80%;
+  display: flex;
 }
 .grid-container {
   display: inline-grid;
@@ -16,7 +17,12 @@
   width: 90%;
   height: 300px;
 }
-
+.uss {
+  width: 60%;
+}
+.ssu {
+  width: 60%;
+}
 .image {
   height: 40%;
   background-image: url("images/M&Ms.jpg");
@@ -28,6 +34,37 @@
 }
 .price {
   color: gray;
+}
+.amogn {
+  border: 1px solid white;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.ae {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 10px;
+}
+.calc {
+  border: 0;
+  background-color: #00bfa6;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+.button {
+  margin-top: 50px;
+  border: 0;
+  background-color: #00bfa6;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -45,5 +82,8 @@
   }
   .grid-items {
     height: 150px;
+  }
+  .calc {
+    padding: 5px;
   }
 }
